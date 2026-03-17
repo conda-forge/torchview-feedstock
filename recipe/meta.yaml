@@ -1,5 +1,5 @@
 {% set name = "torchview" %}
-{% set version = "0.2.6" %}
+{% set version = "0.2.7" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/torchview-{{ version }}.tar.gz
-  sha256: 9db17f345321a991b756b985a6142f4d86af9f27e4235e2b1c909ce27553bfc9
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/torchview-{{ version }}.tar.gz
+  sha256: c5898fd03d256333c9827000c1f83e1052fbcfc1066032d86b30d429dd942f7c
 
 build:
   number: 0
